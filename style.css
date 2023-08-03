@@ -1,0 +1,144 @@
+/* Reset some default styling */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header */
+  header {
+    background-color: #f9f9f9;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #logo img,
+  #ETTO img {
+    display: block;
+  }
+  
+  /* Navigation */
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Section: Dining Experience */
+  #dining-experience {
+    background-color: #f2f2f2;
+    padding: 40px;
+    text-align: center;
+    
+    #table-experience {
+      background-color: #fff;
+      padding: 40px;
+      text-align: center;
+    }
+  }
+  
+  #dining-experience h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Section: Our Vision */
+  #vision {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  /* Section: Opening Hours */
+  #opening-hours {
+    background-color: #f2f2f2;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  /* Section: Address and Contact */
+  #contact-details {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  /* Section: Social Media Links */
+  #social-media {
+    background-color: #f2f2f2;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  /* Section: Sample Menu */
+  #sample-menu,
+  #nibbles,
+  #fried,
+  #starters,
+  #mains,
+  #sides,
+  #desserts {
+    background-color: #fff;
+    padding: 40px;
+  }
+  
+  /* Reservations */
+  #reservations {
+    background-color: #f2f2f2;
+    padding: 40px;
+  }
+  
+  /* Contact */
+  #contact {
+    background-color: #fff;
+    padding: 40px;
+  }
+  
+  /* Opening Hours */
+  #opening-hours {
+    background-color: #f2f2f2;
+    padding: 40px;
+  }
+  
+  /* Google Map */
+  .google-map {
+    margin: 40px auto;
+    max-width: 600px;
+  }
+  
+  /* Menu Images */
+  #menu-images {
+    background-color: #fff;
+    padding: 40px;
+  }
+  
+  #menu-images h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #menu-images h3 {
+    margin-bottom: 10px;
+  }
+  
+  #menu-images div {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  /* Add more specific styles for other elements and sections as needed */
+  
