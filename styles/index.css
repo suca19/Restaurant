@@ -1,0 +1,59 @@
+section {
+  padding: 20px 50px;
+}
+
+.dining-experience,
+.table-experience {
+  height: 350px;
+  display: flex;
+}
+
+.dining-experience p,
+.table-experience p {
+  border-width: 1px;
+  border-color: black;
+  border-style: double;
+  padding: 40px;
+  width: 100px;
+  outline: 1px solid black;
+  outline-offset: -10px;
+  flex-grow: 1;
+  display: flex;
+  align-self: center;
+}
+
+.dining-experience p {
+  margin: 0 0 0 50px;
+}
+.table-experience p {
+  margin: 0 50px 0 0;
+}
+
+.our-vision,
+.opening-hours-contact-details {
+  padding: 20px 100px;
+}
+
+.our-vision h3 {
+  text-align: center;
+}
+.our-vision p {
+  padding: 20px 0;
+  text-align: justify;
+}
+
+.opening-hours-contact-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-media {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30%;
+}
+
+.social-media img {
+  max-width: 30px;
+}

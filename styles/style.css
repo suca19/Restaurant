@@ -1,15 +1,4 @@
-/* Reset some default styling */
-body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    /* font-family: 'Inter', sans-serif; */
-  }
-  
-  /* Section: Dining Experience */
+ /* Section: Dining Experience */
   #dining-experience {
     background-color: #f2f2f2;
     padding: 40px;

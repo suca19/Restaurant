@@ -1,0 +1,25 @@
+/* Reset some default styling */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #161616;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0 15%;
+  background-color: #FFF;
+  color: #292929;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
