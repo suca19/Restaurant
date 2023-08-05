@@ -50,9 +50,18 @@ nav ul li a:hover {
   max-width: 80px;
 }
 .header-quick-options .header-options {
-    width: 35%;
-    display: flex;
-    align-content: space-between;
-    justify-content: space-between;
-    margin-left: 35%;
+  width: 35%;
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+  margin-left: 35%;
+}
+
+.header-quick-options{
+  background-color: rgb(255, 255, 255);
+}
+
+.etto-section.sa
+.header-navigation {
+  margin-bottom: 20px;
 }

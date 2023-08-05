@@ -1,0 +1,20 @@
+
+.background-image img {
+  width: 100%;
+  height: auto;
+}
+.contact div{
+  margin: 25px 400px 35px 24px;
+  border: 1px;
+  background-color: rgb(175, 180, 180);
+}
+.opening-hours div{
+  margin: 25px 400px 35px 24px;
+  border: 1px;
+  background-color: rgb(175, 180, 180);
+}
+.google-map {
+  width: 100%;
+  margin-top: 20px;
+}
+  
