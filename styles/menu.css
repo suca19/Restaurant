@@ -1,11 +1,38 @@
-
-section {
-  padding: 20px 50px;
-  background-color: rgb(240, 236, 236);
-  margin-bottom: 20px;
+.menu {
+  background-color: #525151;
+  padding: 20px;
 }
 
-.etto-section img {
-  height: 50px;
-  margin-right: 20px;
+.menu h2 {
+  text-decoration: underline;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.menu > div {
+  background-color: #FFF;
+  padding: 20px;
+  border: 1px solid #FFF;
+  border-bottom: 1px dashed #000;
+}
+.menu-images h1 {
+  text-align: center;
+  padding: 50px;
+}
+.menu-images-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 50px 0;
+
+}
+.menu-images-item p {
+  text-align: center;
+  padding: 10px 0;
+  width: 200px;
+}
+.menu-images-item img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
 }
