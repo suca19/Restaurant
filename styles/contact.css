@@ -1,21 +1,25 @@
-
-.background-image img {
-  width: 100%;
-  height: auto;
+.contact.contact-background-image {
+    background-image: url('../images/table\ of\ contact.jpeg');
 }
-.contact div{
-    background-color: #FFF;
+.contact {
+    display: flex;
+}
+.contact .contact-item {
+    margin: 20px;
+    display: flex;
+}
+.contact .contact-item-left,
+.contact .contact-item-right {
     padding: 10px;
-    border: 1px solid #282626;
-    margin: auto;
+    margin: 10px;
+    background-color: #fff;
 }
-.opening-hours div{
-    margin: 26px 45px 13px 521px;
-    border: 1px;
-    background-color: rgb(175, 180, 180);
+
+.contact .contact-item-left {
+    flex-grow: 1;
 }
-.google-map {
-  width: 100%;
-  margin-top: 20px;
+
+.contact-google-map {
+    width: 100%;
+    margin-top: 20px;
 }
-  
