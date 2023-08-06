@@ -57,6 +57,7 @@ nav ul li a:hover {
   align-content: space-between;
   justify-content: space-between;
   margin-left: 35%;
+  font-weight: bold;
 }
 
 .header-quick-options{

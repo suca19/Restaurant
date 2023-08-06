@@ -1,25 +1,30 @@
 .contact.contact-background-image {
-    background-image: url('../images/table\ of\ contact.jpeg');
+  background-image: url('../images/table\ of\ contact.jpeg');
 }
 .contact {
-    display: flex;
+  display: flex;
 }
 .contact .contact-item {
-    margin: 20px;
-    display: flex;
+  margin: 20px;
+  display: flex;
 }
 .contact .contact-item-left,
 .contact .contact-item-right {
-    padding: 10px;
-    margin: 10px;
-    background-color: #fff;
+  padding: 10px;
+  margin: 10px;
+  background-color: #fff;
 }
 
 .contact .contact-item-left {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
 .contact-google-map {
-    width: 100%;
-    margin-top: 20px;
+  width: 100%;
+  margin-top: 20px;
+}
+.contact .contact-item-right-down img{
+width: 300px;
+height: 200px;
+margin: 10px 40px 0 20px;
 }
