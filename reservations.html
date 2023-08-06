@@ -46,7 +46,9 @@
             <h2>MAKE A RESERVATION</h2>
             <div>
                 <img src="images/verification-icon.png" alt="verification" width="30" height="30">
-                <h3>Reservations</h3>
+                <h3>
+                    <a id="reservationLink">Reservations</a>
+                    </h3>
             </div>
             
            <div>
@@ -61,5 +63,24 @@
 
         </section>
 
+        <section class="reservations-calendar hide">
+            <div class="reservations-background-shadow"></div>
+            <div class="reservations-window">
+                <span class="reservations-close">X</span>
+                <img src="images/reservation_calendar.png" />
+            </div>
+        </section>
+        <script>
+            document.querySelector('#reservationLink').addEventListener('click', () => {
+                document.querySelector('.reservations-calendar').classList.remove('hide');
+            })
+
+            document.querySelector('.reservations-close').addEventListener('click', () => {
+                document.querySelector('.reservations-calendar').classList.add('hide');
+            });
+            document.querySelector('.reservations-background-shadow').addEventListener('click', () => {
+                document.querySelector('.reservations-calendar').classList.add('hide');
+            });
+        </script>
     </body>
 </html>
