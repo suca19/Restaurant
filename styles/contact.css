@@ -1,5 +1,5 @@
 .contact.contact-background-image {
-  background-image: url('../images/table\ of\ contact.jpeg');
+  background-image: url("../images/table-of-contact.jpeg");
 }
 .contact {
   display: flex;
@@ -21,13 +21,12 @@
 
 .contact-google-map {
   width: 80%;
-  margin-top: 10px 0  ;
+  margin-top: 10px 0;
 }
-.contact .contact-item-right-down{
-
-  margin-top: 10px ;
+.contact .contact-item-right-down {
+  margin-top: 10px;
 }
-.contact .contact-item-right-down img{
-height: 45px;
-margin-top: 10px ;
+.contact .contact-item-right-down img {
+  height: 45px;
+  margin-top: 10px;
 }

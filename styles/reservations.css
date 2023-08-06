@@ -1,78 +1,78 @@
 .reservations {
-    text-align: center;
-    padding: 50px;
-    margin: 0 auto;
-    max-width: 800px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  text-align: center;
+  padding: 50px;
+  margin: 0 auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .reservations img {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .reservations h2 {
-    margin: 20px;
+  margin: 20px;
 }
 
 .reservations div {
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .reservations div img {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .reservations p {
-    margin-top: 20px;
-    border: 10px;
-    padding: 10px;
-    background-color: rgb(228, 230, 223);
+  margin-top: 20px;
+  border: 10px;
+  padding: 10px;
+  background-color: rgb(228, 230, 223);
 }
 
 /* Reservations Calendar */
 .reservations-calendar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .reservations-calendar.hide {
-    display: none;
+  display: none;
 }
 
 .reservations-calendar .reservations-background-shadow {
-    background-color: #000;
-    opacity: 0.9;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
+  background-color: #000;
+  opacity: 0.9;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .reservations-calendar .reservations-close {
-    color: #fff;
-    top: -40px;
-    right: -20px;
-    position: absolute;
-    cursor: pointer;
+  color: #fff;
+  top: -40px;
+  right: -20px;
+  position: absolute;
+  cursor: pointer;
 }
 .reservations-calendar .reservations-window {
-    position: absolute;
-    top: 60%;
+  position: absolute;
+  top: 60%;
 
-    margin: auto;
-    filter: drop-shadow(2mm -2mm 2mm rgb(100, 100, 110));
+  margin: auto;
+  filter: drop-shadow(2mm -2mm 2mm rgb(100, 100, 110));
 }
 .reservations-calendar .reservations-window img {
-    max-height: 450px;
+  max-height: 450px;
 }
 #reservationLink {
-    cursor: pointer;
+  cursor: pointer;
 }
 #reservationLink:hover {
-    color: #03a9f4;
+  color: #03a9f4;
 }

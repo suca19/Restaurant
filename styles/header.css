@@ -1,6 +1,5 @@
-
 /* Header */
- /* Navigation */
+/* Navigation */
 .header-navigation {
   background-color: #f9f9f9;
   width: 100%;
@@ -39,10 +38,8 @@ nav ul li a:hover {
   color: rgb(6, 6, 126);
 }
 
-
 .header-quick-options {
   display: flex;
-  /* justify-content: space-between; */
   padding: 15px 10%;
   border-bottom: 1px solid black;
   align-items: center;
@@ -60,11 +57,10 @@ nav ul li a:hover {
   font-weight: bold;
 }
 
-.header-quick-options{
+.header-quick-options {
   background-color: rgb(255, 255, 255);
 }
 
-.etto-section.sa
-.header-navigation {
+.etto-section.sa .header-navigation {
   margin-bottom: 20px;
 }

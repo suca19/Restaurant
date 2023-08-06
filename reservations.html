@@ -1,86 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Restaurant</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Restaurant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap"
+      rel="stylesheet"
+    />
 
-        <link rel="stylesheet" href="styles/normalizer.css">
-        <link rel="stylesheet" href="styles/header.css">
-        <link rel="stylesheet" href="styles/reservations.css">
-    </head>
-    <body>
-        <!-- Header -->
-        <header>
-            <div class="header-navigation">
-                <a href="index.html"><img src="images/logo.png" alt="logo"></a>
-                
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="menu.html">Menu</a></li>
-                        <li><a class="header-option-selected" href="reservations.html">Reservations</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-            
-            
+    <link rel="stylesheet" href="styles/normalizer.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/reservations.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="header-navigation">
+        <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
 
-            <div class="header-quick-options">
-                <img src="images/ETTO.svg" alt="ETTO" />
-                <img>
-                <div class="header-options">
-                    <a href="#">Pick up</a>
-                    <a href="#">Delivery</a>
-                </div>
-                
-            </div>
-        </header>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li>
+              <a class="header-option-selected" href="reservations.html"
+                >Reservations</a
+              >
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
 
-        <!-- Reservations -->
-        <section class="reservations">
-            <img src="images/table reservartions.png" alt="reservation" width="800" height="500">
-            <h2>MAKE A RESERVATION</h2>
-            <div>
-                <img src="images/verification-icon.png" alt="verification" width="30" height="30">
-                <h3>
-                    <a id="reservationLink" title="Please click here to make your reservation">Reservations</a>
-                    </h3>
-            </div>
-            
-           <div>
-            <p>We open reservations for outdoor tables on the day, once we're sure that the rain will stay away!
-                Any availability will be shown online and we are not taking reservations via email or phone for now.
-                Please note, the biggest group we can accommodate is six people.
-                We are now taking credit card details for all bookings as we experience a lot of no shows and late cancellations and the restaurant is very small. Please read the terms when choosing your booking.
-                We will be closed for annual holidays from Sunday August 27th until 5pm on Wednesday September 13th.
-    
-            </p>
-           </div>
+      <div class="header-quick-options">
+        <img src="images/ETTO.svg" alt="ETTO" />
+        <img />
+        <div class="header-options">
+          <a href="#">Pick up</a>
+          <a href="#">Delivery</a>
+        </div>
+      </div>
+    </header>
 
-        </section>
+    <!-- Reservations -->
+    <section class="reservations">
+      <img
+        src="images/table-reservartions.png"
+        alt="reservation"
+        width="800"
+        height="500"
+      />
+      <h2>MAKE A RESERVATION</h2>
+      <div>
+        <img
+          src="images/verification-icon.png"
+          alt="verification"
+          width="30"
+          height="30"
+        />
+        <h3>
+          <a
+            id="reservationLink"
+            title="Please click here to make your reservation"
+            >Reservations</a
+          >
+        </h3>
+      </div>
 
-        <section class="reservations-calendar hide">
-            <div class="reservations-background-shadow"></div>
-            <div class="reservations-window">
-                <span class="reservations-close">X</span>
-                <img src="images/reservation_calendar.png" />
-            </div>
-        </section>
-        <script>
-            document.querySelector('#reservationLink').addEventListener('click', () => {
-                document.querySelector('.reservations-calendar').classList.remove('hide');
-            })
+      <div>
+        <p>
+          We open reservations for outdoor tables on the day, once we're sure
+          that the rain will stay away! Any availability will be shown online
+          and we are not taking reservations via email or phone for now. Please
+          note, the biggest group we can accommodate is six people. We are now
+          taking credit card details for all bookings as we experience a lot of
+          no shows and late cancellations and the restaurant is very small.
+          Please read the terms when choosing your booking. We will be closed
+          for annual holidays from Sunday August 27th until 5pm on Wednesday
+          September 13th.
+        </p>
+      </div>
+    </section>
 
-            document.querySelector('.reservations-close').addEventListener('click', () => {
-                document.querySelector('.reservations-calendar').classList.add('hide');
-            });
-            document.querySelector('.reservations-background-shadow').addEventListener('click', () => {
-                document.querySelector('.reservations-calendar').classList.add('hide');
-            });
-        </script>
-    </body>
+    <section class="reservations-calendar hide">
+      <div class="reservations-background-shadow"></div>
+      <div class="reservations-window">
+        <span class="reservations-close">X</span>
+        <img src="images/reservation-calendar.png" />
+      </div>
+    </section>
+    <script>
+      document
+        .querySelector("#reservationLink")
+        .addEventListener("click", () => {
+          document
+            .querySelector(".reservations-calendar")
+            .classList.remove("hide");
+        });
+
+      document
+        .querySelector(".reservations-close")
+        .addEventListener("click", () => {
+          document
+            .querySelector(".reservations-calendar")
+            .classList.add("hide");
+        });
+      document
+        .querySelector(".reservations-background-shadow")
+        .addEventListener("click", () => {
+          document
+            .querySelector(".reservations-calendar")
+            .classList.add("hide");
+        });
+    </script>
+  </body>
 </html>
