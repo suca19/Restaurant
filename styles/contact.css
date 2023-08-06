@@ -4,14 +4,15 @@
   height: auto;
 }
 .contact div{
-  margin: 25px 400px 35px 24px;
-  border: 1px;
-  background-color: rgb(175, 180, 180);
+    background-color: #FFF;
+    padding: 10px;
+    border: 1px solid #282626;
+    margin: auto;
 }
 .opening-hours div{
-  margin: 25px 400px 35px 24px;
-  border: 1px;
-  background-color: rgb(175, 180, 180);
+    margin: 26px 45px 13px 521px;
+    border: 1px;
+    background-color: rgb(175, 180, 180);
 }
 .google-map {
   width: 100%;
